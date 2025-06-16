@@ -46,5 +46,9 @@ export const notesType = defineType({
       name: 'soundtrack',
       type: 'string',
     }),
+    defineField({
+      name: 'notesJSON',
+      type: 'string',
+    })
   ],
 });
